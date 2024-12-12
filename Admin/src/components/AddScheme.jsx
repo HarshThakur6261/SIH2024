@@ -116,7 +116,7 @@ const AddScheme = () => {
             <input
               type="number"
               name="age_young"
-              value={formData.target_age_group.young}
+              value={formData.target_age_group.young || ""}
               onChange={handleChange}
               required
               min="0"
@@ -128,7 +128,7 @@ const AddScheme = () => {
             <input
               type="number"
               name="age_youth"
-              value={formData.target_age_group.youth}
+              value={formData.target_age_group.youth || ""}
               onChange={handleChange}
               required
               min="0"
@@ -140,7 +140,7 @@ const AddScheme = () => {
             <input
               type="number"
               name="age_adult"
-              value={formData.target_age_group.adult}
+              value={formData.target_age_group.adult || ""}
               onChange={handleChange}
               required
               min="0"
@@ -152,7 +152,7 @@ const AddScheme = () => {
             <input
               type="number"
               name="age_senior_citizen"
-              value={formData.target_age_group.senior_citizen}
+              value={formData.target_age_group.senior_citizen || ""}
               onChange={handleChange}
               required
               min="0"

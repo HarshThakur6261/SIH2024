@@ -1,28 +1,17 @@
-/* PredictAccountOpening.module.css */
 .container {
-  height: 100vh;
-  margin-left: 270px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #f4f6f9;
 }
 
-.innerCon{
-  background-color: #191d27;
-  padding: 20px 40px;
-  height: 100%;
-  border-radius: 18px;
-  
-}
-.innerCon img{
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-.title {
-  font-size: 2rem;
-  margin-bottom: 20px;
+.innerCon {
   text-align: center;
-  color: white;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .formGroup {
@@ -30,62 +19,96 @@
 }
 
 .label {
-  font-size: 1rem;
-  color: #4a4a4a;
-  margin-bottom: 8px;
-  display: block;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 .select {
-  width: 100%;
-  padding: 10px;
-  margin-top: 8px;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
 }
 
-.button {
+.predictButton {
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.predictButton:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.error {
+  font-size: 16px;
+  color: red;
+}
+
+.schemesList {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.schemesTitle {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.schemesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.schemeItem {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schemeItem:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.schemeName {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.predictedAccounts {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.trackButton {
+  padding: 8px 15px;
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.trackButton:hover {
   background-color: #0056b3;
 }
 
-.result {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #e2f9e7;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.resultTitle {
-  font-size: 1.5rem;
-  color: #28a745;
-}
-
-.resultValue {
-  font-size: 1.2rem;
-  margin-top: 10px;
-  color: #2c3e50;
-}
-
-.loading {
-  font-size: 1rem;
-  color: #6c757d;
-  text-align: center;
-}
-
-.btncon{
-  display: flex;
-  gap: 20px;
+.noData {
+  font-size: 16px;
+  color: #ff6347;
 }

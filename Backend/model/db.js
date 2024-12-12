@@ -374,6 +374,106 @@ const regionSchema = new mongoose.Schema({
 });
 
 
+
+// Define the Track schema
+const trackSchema = new mongoose.Schema({
+  schemeName: {
+    type: String,
+    required: true,
+  },
+  district: {
+    type: String,
+    required: true,
+  },
+  target: {
+    type: Number,
+    required: true,
+  },
+  totalAccounts: {
+    type: Number,
+    default: 0,
+  },
+
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+});
+
+// Create and export the Track model
+const Track = mongoose.model('Track', trackSchema);
+
+
+
+
+const AccountPredictionSchema = new mongoose.Schema({
+  
+
+    CityName: {
+        type: String,
+      },
+      SukanyaSamriddhiYojana: {
+        type: Number,
+        minimum: 0
+      },
+      KisanVikasPatra: {
+        type: Number,
+        minimum: 0
+      },
+      SeniorCitizenSavingsScheme: {
+        type: Number,
+        minimum: 0
+      },
+      PostOfficeSavingsAccount: {
+        type: Number,
+        minimum: 0
+      },
+      PostOfficeMonthlyIncomeScheme: {
+        type: Number,
+        minimum: 0
+      },
+      PublicProvidentFund: {
+        type: Number,
+        minimum: 0
+      },
+      MahilaSammanSavingsCertificate: {
+        type: Number,
+        minimum: 0
+      },
+      PostOfficeTimeDepositAccount: {
+        type: Number,
+        minimum: 0
+      },
+      PMCARESforChildrenScheme: {
+        type: Number,
+        minimum: 0
+      },
+      PostOfficeRecurringDepositAccount: {
+        type: Number,
+        minimum: 0
+      },
+      NationalSavingsCertificate: {
+        type: Number,
+        minimum: 0
+      },
+      PostalLifeInsurance: {
+        type: Number,
+        minimum: 0
+      },
+      RuralPostalLifeInsurance: {
+        type: Number,
+        minimum: 0
+      },
+      FixedDeposits: {
+        type: Number,
+        minimum: 0
+      },
+      RecurringDeposits: {
+        type: Number,
+        minimum: 0
+      },
+})
+const AccountPredictionModel = mongoose.model("accountprediction" , AccountPredictionSchema);
 const Account = mongoose.model("Account", accountSchema);
 
 
@@ -423,4 +523,6 @@ module.exports = {
   SchemeModel,
   RegionModel,
   Account,
+  AccountPredictionModel,
+  Track,
 };

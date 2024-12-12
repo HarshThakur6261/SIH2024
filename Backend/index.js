@@ -18,6 +18,10 @@ const AddnewlocationDataRouter = require("./Router/AddnewlocationDataRouter");
 const GetSchemeRouter = require("./Router/GetSchemeRouter");
 const GetRegionRouter = require("./Router/GetRegionRouter");
 const AccountsData = require("./Router/AccountsData");
+const AccountPredictionRouter = require("./Router/AccountPredictionRouter");
+const TrackRouter = require("./Router/TrackRouter");
+const UpdateAccountRouter = require("./Router/IncreaseAccount");
+const deminiRouter = require("./Router/newgeminii");
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 require("./model/db")
@@ -39,7 +43,10 @@ app.use('/AddnewlocationData' ,AddnewlocationDataRouter )
 app.use("/getScheme" , GetSchemeRouter);
 app.use("/getregion" , GetRegionRouter);
 app.use("/accounts" , AccountsData);
-
+app.use("/PredictAccount" , AccountPredictionRouter)
+app.use("/addTrack" , TrackRouter)
+app.use("/updateAccountByOne" , UpdateAccountRouter);
+app.use("/analyseGemini" , deminiRouter);
 
 
 const Port = process.env.PORT || 3000;

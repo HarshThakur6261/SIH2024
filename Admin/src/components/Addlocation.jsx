@@ -1,263 +1,239 @@
-import React from "react";
-import { useState } from "react";
-import { ToastContainer } from "react-toastify";
-import { handleError, handleSucess } from "../utils";
+import React, { useState } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const AddLocation = () => {
+const OpenAccount = () => {
   const [formData, setFormData] = useState({
-    region_name: "",
-    population_density: "",
-    gender_ratio: "",
-    education_level: "",
-    income_level: "",
-    age_distribution: {
-      young: "",
-      youth: "",
-      adult: "",
-      senior_citizen: "",
-    },
-    type: "",
-    occupation: "",
-    festive_season_month: "",
-    wedding_season_month: "",
-    admission_season_month: "",
+    name: "",
+    age: "",
+    gender: "",
+    scheme: "",
+    accountNumber: "",
+    depositAmount: "",
+    branch: "",
+    contact: "",
+    district: "",
+    state: "",
   });
+
+  // Constants for schemes and districts
+  const schemes = [
+    "sukanyaSamriddhiYojana",
+    "kisanVikasPatra",
+    "seniorCitizenSavingsScheme",
+    "postOfficeSavingsAccount",
+    "postOfficeMonthlyIncomeScheme",
+    "publicProvidentFund",
+    "mahilaSammanSavingsCertificate",
+    "postOfficeTimeDepositAccount",
+    "pmCARESforChildrenScheme",
+    "postOfficeRecurringDepositAccount",
+    "nationalSavingsCertificate",
+    "postalLifeInsurance",
+    "ruralPostalLifeInsurance",
+    "fixedDeposits",
+    "recurringDeposits"
+  ];
+
+  const districts = [
+    "Coimbatore",
+    "Cuddalore",
+    "Dharmapuri",
+    "Dindigul",
+    "Erode",
+  ];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    if (name.includes("age_distribution")) {
-      const ageGroup = name.split(".")[1];
-      setFormData({
-        ...formData,
-        age_distribution: {
-          ...formData.age_distribution,
-          [ageGroup]: value,
-        },
-      });
-    } else {
-      setFormData({ ...formData, [name]: value });
-    }
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const ageDistribution = {
-        young: parseFloat(formData.age_distribution.young),
-        youth: parseFloat(formData.age_distribution.youth),
-        adult: parseFloat(formData.age_distribution.adult),
-        senior_citizen: parseFloat(formData.age_distribution.senior_citizen),
-      };
+      // Send the form data to the server to register the account
+      const response = await axios.post("http://localhost:3000/accounts/add", formData);
+      toast.success(response.data.message);
 
-      const requestData = {
-        region_name: formData.region_name,
-        population_density: parseInt(formData.population_density, 10),
-       
-        gender_ratio: parseFloat(formData.gender_ratio),
-        education_level: parseFloat(formData.education_level),
-        income_level: parseInt(formData.income_level, 10),
-        age_distribution: ageDistribution,
-        type: formData.type,
-        occupation: formData.occupation,
-        festive_season_month: formData.festive_season_month.split(",").map((month) => month.trim()),
-        wedding_season_month: formData.wedding_season_month.split(",").map((month) => month.trim()),
-        admission_season_month: formData.admission_season_month.split(",").map((month) => month.trim()),
-      };
+      // Send request to update the total accounts for the selected scheme and district
+      await axios.put("http://localhost:3000/updateTotalAccount", {
+        schemeName: formData.scheme,
+        district: formData.district,
+        target: 100, // Example target, adjust as needed
+      });
 
-      console.log(requestData);
-
-      const response = await axios.post(
-        "http://localhost:3000/AddnewlocationData/regions",
-        requestData
-      );
-
-      if (response.data.successfull) {
-        handleSucess(response.data.message);
-      } else {
-        handleError(response.data.error);
-      }
+      // Reset the form
+      setFormData({
+        name: "",
+        age: "",
+        gender: "",
+        scheme: "",
+        accountNumber: "",
+        depositAmount: "",
+        branch: "",
+        contact: "",
+        district: "",
+        state: "",
+      });
     } catch (error) {
-      console.error(error);
-      handleError("An error occurred while submitting the data.");
+      toast.error(error.response?.data?.message || "Something went wrong");
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Region Name:
-        <input
-          type="text"
-          name="region_name"
-          value={formData.region_name}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Population Density:
-        <input
-          type="number"
-          name="population_density"
-          value={formData.population_density}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      
-
-      
-
-      <label>
-        Gender Ratio:
-        <input
-          type="number"
-          step="0.000001"
-          name="gender_ratio"
-          value={formData.gender_ratio}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Education Level (%):
-        <input
-          type="number"
-          step="0.01"
-          name="education_level"
-          value={formData.education_level}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Income Level:
-        <input
-          type="number"
-          name="income_level"
-          value={formData.income_level}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <fieldset>
-        <legend>Age Distribution (%):</legend>
-        <label>
-          Young:
+    <div style={{ fontFamily: "Arial, sans-serif", maxWidth: "600px", margin: "0 auto", padding: "20px", border: "1px solid #ccc", borderRadius: "10px", backgroundColor: "#f9f9f9" }}>
+      <h2 style={{ textAlign: "center", color: "#333" }}>Register New Account</h2>
+      <form onSubmit={handleSubmit}>
+        {/* Form Fields */}
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Name:</label>
           <input
-            type="number"
-            step="0.01"
-            name="age_distribution.young"
-            value={formData.age_distribution.young}
+            type="text"
+            name="name"
+            value={formData.name}
             onChange={handleChange}
             required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
           />
-        </label>
-        <label>
-          Youth:
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Age:</label>
           <input
             type="number"
-            step="0.01"
-            name="age_distribution.youth"
-            value={formData.age_distribution.youth}
+            name="age"
+            value={formData.age}
             onChange={handleChange}
             required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
           />
-        </label>
-        <label>
-          Adult:
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Gender:</label>
+          <select
+            name="gender"
+            value={formData.gender}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          >
+            <option value="">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        {/* Scheme Toggle */}
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Scheme:</label>
+          <select
+            name="scheme"
+            value={formData.scheme}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          >
+            <option value="">Select Scheme</option>
+            {schemes.map((scheme, index) => (
+              <option key={index} value={scheme}>
+                {scheme}
+              </option>
+            ))}
+          </select>
+        </div>
+        {/* District Toggle */}
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>District:</label>
+          <select
+            name="district"
+            value={formData.district}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          >
+            <option value="">Select District</option>
+            {districts.map((district, index) => (
+              <option key={index} value={district}>
+                {district}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Account Number:</label>
+          <input
+            type="text"
+            name="accountNumber"
+            value={formData.accountNumber}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          />
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Deposit Amount:</label>
           <input
             type="number"
-            step="0.01"
-            name="age_distribution.adult"
-            value={formData.age_distribution.adult}
+            name="depositAmount"
+            value={formData.depositAmount}
             onChange={handleChange}
             required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
           />
-        </label>
-        <label>
-          Senior Citizen:
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Branch:</label>
           <input
-            type="number"
-            step="0.01"
-            name="age_distribution.senior_citizen"
-            value={formData.age_distribution.senior_citizen}
+            type="text"
+            name="branch"
+            value={formData.branch}
             onChange={handleChange}
             required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
           />
-        </label>
-      </fieldset>
-
-      <label>
-        Type (Rural/Urban/Semi-Urban):
-        <select
-          name="type"
-          value={formData.type}
-          onChange={handleChange}
-          required
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>Contact Number:</label>
+          <input
+            type="text"
+            name="contact"
+            value={formData.contact}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          />
+        </div>
+        <div style={{ marginBottom: "15px" }}>
+          <label style={{ display: "block", marginBottom: "5px" }}>State:</label>
+          <input
+            type="text"
+            name="state"
+            value={formData.state}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
+          />
+        </div>
+        <button
+          type="submit"
+          style={{
+            width: "100%",
+            padding: "10px",
+            backgroundColor: "#4CAF50",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            fontSize: "16px",
+            cursor: "pointer",
+          }}
         >
-          <option value="">Select Type</option>
-          <option value="Rural">Rural</option>
-          <option value="Urban">Urban</option>
-          <option value="Semi-Urban">Semi-Urban</option>
-        </select>
-      </label>
-
-      <label>
-        Occupation:
-        <input
-          type="text"
-          name="occupation"
-          value={formData.occupation}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Festive Season Months (comma-separated):
-        <input
-          type="text"
-          name="festive_season_month"
-          value={formData.festive_season_month}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Wedding Season Months (comma-separated):
-        <input
-          type="text"
-          name="wedding_season_month"
-          value={formData.wedding_season_month}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Admission Season Months (comma-separated):
-        <input
-          type="text"
-          name="admission_season_month"
-          value={formData.admission_season_month}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <button type="submit">Submit</button>
+          Register
+        </button>
+      </form>
       <ToastContainer />
-    </form>
+    </div>
   );
 };
 
-export default AddLocation;
+export default OpenAccount;

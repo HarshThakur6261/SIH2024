@@ -21,7 +21,9 @@ const Home = () => {
         navigate("/signup")
       }}> Signup</button>
 
-
+<button onClick={() =>{
+        navigate("/OpenAccount")
+      }}> Open Account</button>
     </div>
   )
 }

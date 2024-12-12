@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import Signup from "../components/Signup";
 import AddScheme from "../components/AddScheme";
 import Addlocation from "../components/Addlocation";
+import OpenAccount from "../components/OpenAccount";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +27,15 @@ const router = createBrowserRouter([
     path: "/AddLocation",
     element: <Addlocation></Addlocation>,
   
-},]
+},
+{
+  path: "/OpenAccount",
+  element: <OpenAccount></OpenAccount>
+
+},
+
+
+]
 }]
 );
 

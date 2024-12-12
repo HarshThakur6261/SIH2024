@@ -2,38 +2,46 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Track = () => {
-  // const [schemes, setSchemes] = useState([]); // To store the fetched schemes
-  const schemes = [
-    "Post Office Saving Account",
-  
-];
+  const [schemes, setSchemes] = useState([]); // To store the fetched tracked schemes
+
+  // Fetch tracked schemes when the component mounts
   useEffect(() => {
     const fetchSchemes = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/accounts/total"); // Replace with your backend endpoint
-        setSchemes(response.data); // Assuming response.data is an array of schemes
-        console.log(response.data)
+        // Fetching tracked schemes from the backend
+        const response = await axios.get("http://localhost:3000/addTrack/track"); 
+        setSchemes(response.data); // Set fetched schemes to state
+        console.log(response.data); // Log the response for debugging
       } catch (error) {
         console.error("Error fetching schemes:", error);
       }
     };
 
     fetchSchemes();
-  }, []); // This will run once when the component mounts
+  }, []); // Run only once on mount
 
-  // Function to handle analysis (you can modify this)
-  const handleAnalyze = (schemeId) => {
-    alert("Analyzing scheme with ID: due to election month the banks are closed for more time");
-    // Add your analysis logic here, like navigating to a detailed page or making an API call
+  // Function to handle the analysis of a scheme
+  const handleAnalyze = async(schemeName, target , district, totalAccounts) => {
+const payload = {
+  schemeName,
+  district:district,
+  target:target,
+  totalAccount:totalAccounts,
+}
+console.log(payload);
+    const response  = await axios.post("http://localhost:3000/analyseGemini" ,payload )
+  
+   console.log(response.data)
   };
 
   return (
     <div style={{ height: "100vh", marginLeft: "270px" }}>
       <h2>Track Schemes</h2>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
+        {/* Map through each tracked scheme and display it */}
         {schemes.map((scheme) => (
           <div
-            key={scheme} // Assuming each scheme has a unique _id
+            key={scheme._id} // Use _id for unique key
             style={{
               width: "200px",
               padding: "20px",
@@ -44,11 +52,13 @@ const Track = () => {
               textAlign: "center",
             }}
           >
-            <h3>{scheme}</h3> {/* Scheme name */}
-            <p>{scheme}</p> {/* Scheme district */}
-            <p>target 50</p>
-            <p>total account oppend :701</p>
-            <button onClick={() => handleAnalyze(scheme._id)}>
+            <h3>{scheme.schemeName}</h3> {/* Scheme name */}
+            <p>{scheme.district}</p> {/* Scheme district */}
+            <p>Target: {scheme.target}</p> {/* Target */}
+            <p>Total Accounts Opened: {scheme.totalAccounts}</p> {/* Total accounts opened */}
+            <button
+              onClick={() => handleAnalyze(scheme.schemeName, scheme.target , scheme.district, scheme.totalAccounts)}
+            >
               Analyze
             </button>
           </div>
