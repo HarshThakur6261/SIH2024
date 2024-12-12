@@ -1,0 +1,508 @@
+region_name,population_density,gender_ratio,education_level,income_level,young,youth,adult,senior_citizen,type,occupation,festive_season_month,wedding_season_month,admission_season_month,area_name
+Ariyalur,754894,0.98556515,90.18,4.20%,22.00%,23.00%,38.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Chennai,4646732,1.010799312,84.49,51%,20.00%,25.00%,40.00%,15.00%,Urban,Service,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Coimbatore,3458045,1.000317571,84.03,46.70%,18.00%,24.00%,42.00%,16.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Cuddalore,2605914,1.013506236,78.04,17.20%,21.00%,22.00%,39.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Dharmapuri,1506843,,71.88,11%,23.00%,24.00%,37.00%,16.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Dindigul,2159775,1.001947468,79.17,14.30%,20.00%,23.00%,41.00%,16.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Erode,2251744,1.007123782,74.21,28.20%,19.00%,22.00%,42.00%,17.00%,Rural,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Kancheepuram,3998252,1.01393446,72.86,42.90%,20.00%,24.00%,41.00%,15.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Kanniyakumari,1870374,1.057011221,74.63,17.20%,18.00%,25.00%,40.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Karur,1064493,0.984850152,68.54,8.10%,21.00%,23.00%,39.00%,17.00%,Rural,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Krishnagiri,1879809,1.044210545,71.46,19.40%,22.00%,24.00%,38.00%,16.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Madurai,3038252,1.009722333,72.58,23.50%,19.00%,23.00%,42.00%,16.00%,Urban,Service,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Nagapattinam,1616450,0.975320259,83.98,8.10%,21.00%,22.00%,39.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Namakkal,1726601,1.013949268,78.68,21.40%,20.00%,24.00%,40.00%,16.00%,Rural,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Perambalur,565223,0.996788735,85.2,2.20%,22.00%,22.00%,38.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Pudukkottai,1618345,0.985316939,83.23,9.30%,21.00%,23.00%,38.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Ramanathapuram,1353445,1.017697123,75.6,7.50%,20.00%,24.00%,39.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Salem,3482056,1.047684043,74.32,617.10%,19.00%,25.00%,41.00%,15.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Sivagangai,1339101,0.99737929,71.34,23.50%,22.00%,22.00%,39.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Thanjavur,2405890,0.966441461,82.64,6.80%,21.00%,23.00%,39.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+The Nilgiris,735394,0.959738948,83.59,16.80%,18.00%,25.00%,40.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Theni,1245899,1.008814671,82.86,5.80%,20.00%,23.00%,40.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Thiruvallur,3728104,1.012969468,77.19,7.30%,19.00%,24.00%,42.00%,15.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Thiruvarur,1264277,0.982918329,83.45,23.80%,22.00%,22.00%,38.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Thoothukudi,1750176,0.977253701,77.26,56.10%,20.00%,24.00%,40.00%,16.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Tiruchirappalli,2722290,0.98706429,76.26,5.40%,19.00%,23.00%,42.00%,16.00%,Urban,Service,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Tirunelveli,3077233,0.977248267,80.72,15%,21.00%,22.00%,39.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Tiruppur,2479052,1.010760058,80.15,26.50%,18.00%,25.00%,40.00%,17.00%,Urban,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Tiruvannamalai,2464875,1.005616826,79.85,21.20%,19.00%,24.00%,42.00%,15.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Vellore,3936331,0.99343932,82.5,31.40%,20.00%,24.00%,40.00%,16.00%,Rural,Business,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Viluppuram,3458873,1.013250457,86.16,16.40%,21.00%,23.00%,39.00%,17.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Virudhunagar,1942288,0.992950802,91.75,17.10%,19.00%,22.00%,41.00%,18.00%,Rural,Farming,"[April,May,July,August]","[November,December,February]","[May,July]",South
+Alirajpur,3276697,0.928,80.87,0.10%,25.00%,22.00%,38.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Anuppur,2463289,0.929,81.07,0.10%,24.00%,23.00%,39.00%,14.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Ashoknagar,2378458,0.893,76.46,0.10%,22.00%,24.00%,40.00%,14.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Balaghat,2371061,0.918,80.37,0.20%,26.00%,21.00%,37.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Barwani,2365106,0.931,71.62,0.10%,23.00%,22.00%,39.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Betul,2228935,0.926,72.26,0.20%,21.00%,23.00%,40.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Bhind,2185793,0.964,59,0.10%,25.00%,20.00%,38.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Bhopal,2090922,0.964,76.16,0.30%,20.00%,26.00%,42.00%,12.00%,Urban,Service,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Burhanpur,2032036,0.864,76.65,0.30%,24.00%,21.00%,40.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Chhatarpur,1986864,0.955,72.34,0.10%,22.00%,23.00%,38.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Chhindwara,1873046,0.965,62.7,0.20%,25.00%,22.00%,37.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Damoh,1762375,0.883,63.74,0.10%,24.00%,21.00%,39.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Datia,1726050,0.877,62.55,0.20%,23.00%,23.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Dewas,1703005,0.837,75.26,0.20%,21.00%,25.00%,40.00%,14.00%,Urban,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Dhar,1701698,1.021,77.09,0.10%,24.00%,22.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Dindori,1575362,0.971,68.9,0.10%,27.00%,20.00%,36.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+East Nimar,1563715,0.942,69.35,0.10%,25.00%,22.00%,38.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Guna,1545814,0.956,31.21,66.30%,22.00%,24.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Gwalior,1512681,0.938,69.09,102%,21.00%,25.00%,40.00%,14.00%,Urban,Service,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Harda,1458875,0.896,70.53,82.40%,24.00%,21.00%,38.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Hosangabad,1455069,0.971,66.78,88.20%,23.00%,23.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Indore,1445166,0.901,61.43,162%,19.00%,28.00%,43.00%,10.00%,Urban,Business,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Jabalpur,1385881,0.982,49.08,117.50%,20.00%,25.00%,42.00%,13.00%,Urban,Service,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Jhabua,1379131,0.982,72.12,51.10%,27.00%,20.00%,37.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Katni,1340411,0.963,71.78,71.70%,24.00%,22.00%,40.00%,14.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Mandla,1331597,0.901,72.98,71.70%,26.00%,21.00%,38.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Mandsaur,1311332,0.901,70.06,41.90%,23.00%,22.00%,40.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Morena,1310061,0.943,66.39,78.20%,24.00%,22.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Narsimhapur,1292042,0.952,71.98,51.80%,25.00%,21.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Neemuch,1264219,0.91,69.73,59.90%,24.00%,23.00%,39.00%,14.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Panna,1241519,0.912,63.23,79.00%,25.00%,21.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Raisen,1241350,0.914,75.29,51.20%,22.00%,24.00%,40.00%,14.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Rajgarh,1178273,0.92,60.41,63.40%,23.00%,22.00%,39.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Ratlam,1127033,0.957,64.43,58.80%,21.00%,23.00%,40.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Rewa,1091854,0.92,75.69,82.50%,26.00%,20.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Sagar,1066063,0.957,66.67,48.70%,24.00%,21.00%,39.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Satna,1054905,0.92,66.87,65.20%,23.00%,23.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Sehore,1025048,0.974,43.3,58.40%,22.00%,24.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Seoni,1016520,1.008,64.79,59.50%,25.00%,22.00%,37.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Shahdol,845071,0.99,66.42,64.60%,26.00%,20.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Shajapur,826067,0.905,70.8,69.80%,23.00%,23.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Sheopur,786754,0.873,72.63,61.40%,27.00%,19.00%,36.00%,18.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Shivpuri,757847,0.951,64.36,53.20%,25.00%,21.00%,37.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Sidhi,749237,0.976,67.88,52%,24.00%,22.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Singrauli,728999,1.011,36.1,75.10%,23.00%,23.00%,38.00%,16.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Tikamgarh,704524,1.002,63.9,48.40%,24.00%,22.00%,39.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Ujjain,687861,0.901,57.43,94.40%,21.00%,25.00%,40.00%,14.00%,Urban,Business,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Umaria,644758,0.95,65.89,51.10%,26.00%,20.00%,37.00%,17.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Vidisha,570465,0.935,72.5,62.70%,24.00%,23.00%,38.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+West Nimar,1965970,0.84,71.03,62.70%,25.00%,22.00%,38.00%,15.00%,Rural,Farming,"[Janua]ry, March, October,September]","[January, February, April, May,]","[August,July]",Central
+Allahabad,5954391,0.901,72.32,163.30%,25.00%,18.00%,40.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Moradabad,4772006,0.906,56.77,129.80%,28.00%,19.00%,38.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ghaziabad,4681645,0.881,78.07,146.40%,24.00%,21.00%,42.00%,13.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Azamgarh,4613913,1.019,70.93,81.20%,30.00%,18.00%,35.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Lucknow,4589838,0.917,77.29,156.70%,23.00%,20.00%,45.00%,12.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kanpur Nagar,4581268,0.862,79.65,141.40%,26.00%,18.00%,43.00%,13.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Jaunpur,4494204,1.024,71.55,69.40%,29.00%,17.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Sitapur,4483992,0.888,61.12,94.70%,30.00%,16.00%,35.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Bareilly,4448359,0.887,58.49,143.70%,27.00%,19.00%,39.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Gorakhpur,4440895,0.95,70.83,111.50%,28.00%,18.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Agra,4418797,0.868,71.58,173.50%,26.00%,20.00%,40.00%,14.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Muzaffarnagar,4143512,0.889,69.12,146.90%,29.00%,17.00%,38.00%,16.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Hardoi,4092845,0.868,64.57,87.60%,32.00%,15.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kheri,4021243,0.894,60.56,107.50%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Sultanpur,3797117,0.983,69.27,107.80%,33.00%,14.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Bijnor,3682713,0.917,68.48,131.40%,28.00%,20.00%,39.00%,13.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Budaun,3681896,0.871,51.29,93.80%,31.00%,16.00%,37.00%,16.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Varanasi,3676841,0.913,75.6,116.40%,25.00%,19.00%,41.00%,15.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Aligarh,3673889,0.882,67.52,124.60%,27.00%,18.00%,40.00%,15.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ghazipur,3620268,0.952,71.78,110.80%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kushinagar,3564544,0.961,65.25,89.80%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Bulandshahar,3499171,0.896,68.88,149.60%,27.00%,19.00%,39.00%,15.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Bahraich,3487731,0.892,49.36,81.60%,32.00%,15.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Saharanpur,3466382,0.89,70.49,134.10%,29.00%,18.00%,37.00%,16.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Meerut,3443689,0.886,72.84,207.80%,24.00%,22.00%,41.00%,13.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Gonda,3433919,0.921,58.71,86.40%,31.00%,16.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Rae Bareli,3405559,0.943,67.25,97.90%,28.00%,19.00%,38.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Barabanki,3260699,0.91,61.75,115.40%,29.00%,18.00%,37.00%,16.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ballia,3239774,0.937,70.94,78.40%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Pratapgarh,3209141,0.998,70.09,84.90%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Unnao,3108367,0.907,66.37,102.10%,30.00%,16.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Deoria,3100946,1.017,71.13,89.80%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Shahjahanpur,3006538,0.872,59.54,114.80%,29.00%,18.00%,38.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Maharajganj,2684703,0.943,62.76,89.80%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Fatehpur,2632733,0.901,67.43,116.70%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Siddharth Nagar,2559297,0.976,59.25,81.60%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Mathura,2547184,0.863,70.36,117.20%,28.00%,18.00%,39.00%,15.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Firozabad,2498156,0.875,71.92,78.40%,32.00%,15.00%,35.00%,18.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Mirzapur,2496970,0.903,68.48,86.40%,29.00%,17.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Faizabad,2470996,0.962,68.73,89.80%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Basti,2464464,0.963,67.22,84.90%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ambedkar Nagar,2397888,0.978,72.23,86.40%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Rampur,2335819,0.909,53.34,133.60%,29.00%,18.00%,38.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Mau,2205968,0.979,73.09,81.60%,30.00%,16.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Balrampur,2148665,0.928,49.51,79.90%,31.00%,15.00%,36.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Pilibhit,2031007,0.895,61.47,88.10%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Jhansi,1998603,0.89,75.05,154%,29.00%,18.00%,38.00%,15.00%,Urban,Service,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Chandauli,1952756,0.918,71.48,89.80%,30.00%,16.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Farrukhabad,1885204,0.874,69.04,97.90%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Mainpuri,1868529,0.881,75.99,94.70%,31.00%,15.00%,36.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Sonbhadra,1862559,0.918,64.03,81.60%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Jyotiba Phule Nagar,1840221,0.91,63.84,89.80%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Banda,1799410,0.863,66.67,84.90%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ramabai Nagar,1796184,0.865,75.78,86.40%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Etah,1774480,0.873,70.81,166.40%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Sant Kabir Nagar,1715183,0.972,66.72,89.80%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Jalaun,1689974,0.865,73.75,97.90%,30.00%,16.00%,37.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kannauj,1656616,0.879,72.7,93%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Gautam Buddha Nagar,1648115,0.851,80.12,1000%,24.00%,22.00%,41.00%,13.00%,Urban,Business,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kaushambi,1599596,0.908,61.28,89.80%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Etawah,1581810,0.87,78.41,99.60%,29.00%,18.00%,38.00%,15.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Sant Ravidas Nagar,1578213,0.955,68.97,91.50%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Mahamaya Nagar,1564708,0.871,71.59,88.10%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Kanshiram Nagar,1436719,0.88,61.02,86.40%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",South
+Auraiya,1379545,0.864,78.95,94.70%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Baghpat,1303048,0.861,72.01,93%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Lalitpur,1221592,0.906,63.52,97.90%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Shrawasti,1117361,0.881,46.74,8.47%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Hamirpur,1104285,0.861,68.77,16%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Chitrakoot,991730,0.879,65.05,8.05%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",Central
+Mahoba,875958,0.878,65.27,13.46%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[March,April,October,November,May]","[November,December,Jauuary,February]","[June,July,August]",North
+Ajmer,2583052,0.951,69.33,20%,32.00%,15.00%,35.00%,18.00%,Urban,Business,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Alwar,3674179,0.895,70.72,22.07%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Baba Ramdev,2622567,0.85,62.32,11.53%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Baran,1222755,0.929,66.66,18.58%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Barmer,2603751,0.902,56.53,19.52%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Bharatpur,2548462,0.88,70.11,14.14%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Bhilwara,2408523,0.973,61.37,22.34%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Bikaner,2363937,0.905,65.13,18.29%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Bundi,1110906,0.925,61.52,18.69%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Chittaurgarh,1544338,0.972,61.71,20.03%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Churu,2039547,0.94,66.75,13.14%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Dausa,1634409,0.905,68.16,13.64%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Dhaulpur,1206516,0.846,69.08,12.27%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Dungarpur,1388552,0.994,59.46,9.92%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Ganganagar,1969168,0.887,69.64,22.33%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Hanumangarh,1774692,0.906,67.13,20.36%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Jaipur,6626178,0.91,75.51,22.73%,33.00%,14.00%,34.00%,19.00%,Urban,Business,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Jaisalmer,669919,0.852,57.22,21.33%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Jhalawar,1411129,0.946,61.5,12.91%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Jhunjhunun,2137045,0.95,74.13,17.59%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Jodhpur,3687165,0.916,65.94,14.08%,33.00%,14.00%,34.00%,19.00%,Urban,Business,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Karauli,1458248,0.861,66.22,16.79%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Kota,1951014,0.911,76.56,14%,31.00%,16.00%,36.00%,17.00%,Urban,Business,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Nagaur,3307743,0.95,62.8,20.04%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Pali,2037573,0.987,62.39,14.44%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Pratapgarh,867848,0.983,55.97,16.92%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Rajsamand,1156597,0.99,63.14,14.51%,31.00%,16.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Sikar,2677333,0.947,71.91,18.37%,32.00%,15.00%,35.00%,18.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Sirohi,1036346,0.94,55.25,15.32%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Sawai Madhopur,1335551,0.897,65.39,15.78%,30.00%,17.00%,36.00%,17.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Tonk,1421326,0.952,61.58,18.25%,28.00%,19.00%,39.00%,14.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Udaipur,3068420,0.958,61.82,16.06%,32.00%,15.00%,35.00%,18.00%,Urban,Business,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",West
+Zahirabad,3130003,0.91,61.88,16.64%,33.00%,14.00%,34.00%,19.00%,Rural,Farming,"[October,November,January]","[November,December,Jauuary,February]","[June,July,August]",South
+Araria,"3,577,567",0.92,42.01,5.09%,35%,35%,26%,4%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Arwal,"588,216",0.917,59.29,7.05%,37%,29%,29%,5%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Aurangabad,"1,575,352",0.92,53.21,6.94%,34%,34%,22%,10%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Banka,"1,620,603",0.909,53.34,5.88%,31%,30%,17%,22%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Begusarai,"3,321,474",0.917,59.09,5.45%,40%,28%,30%,2%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Bhagalpur,"3,018,604",0.918,53.34,7.56%,36%,27%,22%,15%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Buxar,"1,750,786",0.917,56.6,5.50%,40%,35%,29%,-4%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Darbhanga,"3,153,470",0.918,59.29,5.32%,31%,39%,21%,9%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+East Champaran (Motihari),"5,131,468",0.921,63.84,7.79%,33%,28%,25%,14%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Gaya,"4,270,000",0.91,57.62,5.55%,35%,25%,26%,14%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Gopalganj,"2,612,351",0.918,63.84,5.12%,33%,25%,16%,26%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Jamui,"1,962,911",0.916,59.09,7.76%,42%,38%,27%,-7%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Jehanabad,"1,387,237",0.912,53.34,4.94%,30%,27%,15%,28%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Kaimur (Bhabua),"1,307,434",0.926,59.29,7.39%,32%,39%,17%,12%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Katihar,"3,075,758",0.919,53.34,6.61%,42%,38%,29%,-9%,Rular,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Khagaria,"1,633,106",0.918,53.34,5.61%,34%,38%,28%,0%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Kishanganj,"1,547,419",0.915,59.09,7.34%,37%,28%,25%,10%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Lakhisarai,"1,303,249",0.918,48.51,6.86%,41%,40%,18%,1%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Madhepura,"1,746,696",0.919,59.09,5.97%,45%,29%,29%,-3%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Madhubani,"4,484,646",0.922,53.34,6.63%,36%,36%,29%,-1%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Munger,"2,670,000",0.919,57.62,7.72%,31%,40%,19%,10%,Rular,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Muzaffarpur,"4,269,428",0.92,63.84,5.43%,36%,30%,23%,11%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Nalanda,"2,315,000",0.918,63.84,7.26%,38%,30%,19%,13%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Nawada,"1,918,000",0.914,68.74,7.77%,43%,29%,17%,11%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Patna,"5,838,000",0.918,59.29,7.78%,36%,30%,24%,10%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Purnia,"3,146,000",0.916,77.03,9.65%,35%,39%,22%,4%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Rohtas,"2,232,000",0.92,53.34,7.21%,37%,25%,28%,10%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Saharsa,"1,621,000",0.917,56.6,6.03%,40%,33%,15%,12%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Samastipur,"3,322,000",0.919,53.34,7.67%,34%,34%,18%,14%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Saran,"2,666,000",0.919,59.09,6.61%,38%,27%,21%,14%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Sheikhpura,"650,000",0.92,63.84,8.02%,33%,35%,22%,10%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Sheohar,"707,000",0.92,59.09,8.02%,35%,31%,22%,12%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Sitamarhi,"2,676,000",0.919,57.62,7.13%,39%,34%,25%,2%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Siwan,"3,305,000",0.921,57.62,6.34%,40%,33%,24%,-3%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Supaul,"2,506,000",0.919,59.09,7.92%,34%,32%,24%,10%,Urban,Business,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Vaishali,"3,004,000",0.92,53.34,4.98%,38%,36%,20%,6%,Urban,Service,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+West Champaran (Bagaha),"3,608,000",0.92,59.09,4.91%,32%,37%,24%,7%,Urban,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,August]",East
+Bengaluru Urban,"12,385,453",1.08,88,56.33%,20%,45%,25%,10%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Bengaluru Rural,"2,200,000",1.05,72,24.33%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Belagavi,"4,781,000",1.03,75,29.20%,25%,35%,25%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Ballari,"2,215,000",1.07,68,19.40%,30%,30%,25%,15%,Rural,Mining,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Bagalkot,"2,045,000",1.04,70,21.02%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Bidar,"2,123,000",1.02,65,23%,30%,35%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Vijayapura,"2,245,000",1.05,68,20.11%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Dakshina Kannada,"3,521,000",1.02,85,40.35%,25%,35%,25%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Davangere,"2,234,000",1.04,75,25.73%,30%,35%,20%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Dharwad,"3,312,000",1.03,80,29.20%,25%,35%,25%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Gadag,"1,815,000",1.05,72,21.77%,30%,35%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Haveri,"1,632,000",1.03,70,22.54%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Hassan,"2,418,000",1.02,78,27.34%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Kalaburagi,"2,536,000",1.06,65,21.02%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Koppal,"1,421,000",1.04,68,20.11%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Kodagu,"1,215,000",1.01,82,29.20%,25%,35%,25%,15%,Rural,Tourism/Agriculture,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Kolar,"4,012,000",1.06,70,24%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Mandya,"2,134,000",1.03,75,26%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Mysuru,"1,325,000",1.02,80,32.39%,25%,35%,25%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Raichur,"2,031,000",1.05,65,19.40%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Shivamogga,"1,842,000",1.03,78,26.61%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Tumakuru,"3,825,000",1.04,72,25.02%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Udupi,"1,236,000",1.01,85,35.41%,25%,35%,25%,15%,Urban,Service,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Uttara Kannada,"1,418,000",1.02,75,24.33%,30%,35%,25%,10%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Yadgir,"1,245,000",1.05,68,20%,35%,30%,20%,15%,Rural,Farming,"[March,April,September,October]","[November,December,Jauuary,February]","[June,July,August]",North
+Amritsar,"2,500,000",1.05,80,24.33%,25%,35%,25%,15%,Urban,Service/Business,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Barnala,"600,000",1.03,75,12.00%,30%,35%,20%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Bathinda,"1,400,000",1.06,80,16.00%,28%,38%,22%,12%,Urban,Service/Business,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Faridkot,"650,000",1.04,75,13.00%,32%,30%,22%,16%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Fatehgarh Sahib,"600,000",1.03,78,14.00%,28%,35%,22%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Fazilka,"1,100,000",1.05,72,12.50%,30%,35%,20%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Ferozepur,"1,600,000",1.04,75,13.50%,32%,32%,20%,16%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Gurdaspur,"2,300,000",1.03,78,14.50%,28%,35%,22%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Hoshiarpur,"1,600,000",1.02,78,15.00%,28%,35%,22%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Jalandhar,"2,200,000",1.06,85,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Kapurthala,"800,000",1.04,80,15.50%,28%,35%,22%,15%,Urban,Service/Business,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Ludhiana,"3,800,000",1.07,82,22.00%,25%,40%,25%,10%,Urban,Manufacturing/Service,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Mansa,"800,000",1.05,75,13.00%,30%,35%,20%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Moga,"1,100,000",1.04,78,14.00%,30%,35%,20%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Mohali,"1,200,000",1.08,85,25.00%,25%,40%,25%,10%,Urban,IT/Service,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Muktsar,"1,100,000",1.04,72,12.50%,32%,30%,22%,16%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Patiala,"1,900,000",1.03,80,18.00%,28%,35%,22%,15%,Urban,Service/Business,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Rupnagar,"1,400,000",1.02,78,15.00%,28%,35%,22%,15%,Rural,Agriculture,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Sahibzada Ajit Singh Nagar,"1,100,000",1.08,85,25.00%,25%,40%,25%,10%,Urban,IT/Service,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Sangrur,"1,600,000",1.04,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Tarn Taran,"1,200,000",1.03,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[Janua]ry, October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Ahmednagar,"4,500,000",75,1.04,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Akola,"2,100,000",72,1.05,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Amravati,"2,600,000",75,1.03,14.00%,30%,35%,20%,15%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Aurangabad,"3,800,000",78,1.05,16.00%,28%,35%,22%,15%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Beed,"2,600,000",70,1.06,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Bhandara,"1,200,000",75,1.04,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Buldhana,"2,500,000",72,1.03,13.50%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Chandrapur,"2,200,000",70,1.06,14.00%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Dhule,"2,000,000",72,1.04,13.00%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Gadchiroli,"1,100,000",65,1.02,10.00%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Gondia,"1,300,000",70,1.04,12.00%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Hingoli,"1,800,000",68,1.05,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Jalgaon,"4,200,000",75,1.03,14.50%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Jalna,"1,900,000",70,1.05,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Kolhapur,"3,800,000",80,1.03,16.00%,28%,35%,22%,15%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Latur,"2,400,000",72,1.06,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Mumbai City,"10,500,000",90,1.08,50.00%,20%,45%,25%,10%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Mumbai Suburban,"11,000,000",85,1.07,30.00%,25%,40%,25%,10%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Nanded,"3,300,000",75,1.05,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Nandurbar,"1,700,000",65,1.02,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Nashik,"7,100,000",80,1.04,17.00%,28%,35%,22%,15%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Osmanabad,"1,700,000",70,1.06,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Palghar,"3,000,000",75,1.03,13.00%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Parbhani,"1,800,000",72,1.05,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Pune,"9,400,000",90,1.07,25.00%,25%,40%,25%,10%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Raigad,"2,700,000",80,1.03,16.00%,30%,35%,20%,15%,Rural/Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Ratnagiri,"1,600,000",75,1.02,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Sangli,"3,100,000",78,1.04,15.00%,28%,35%,22%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Satara,"3,000,000",75,1.03,14.50%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Sindhudurg,"1,300,000",80,1.02,15.00%,30%,35%,20%,15%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Solapur,"4,600,000",75,1.06,14.00%,32%,30%,22%,16%,Rural,Farming,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Thane,"11,000,000",85,1.07,22.00%,25%,40%,25%,10%,Urban,Service,"[March,August,September]","[November,December,Jauuary,February]","[June,July,August]",West
+Adilabad,"2,700,000",1.05,70,12.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Bhadradri Kothagudem,"1,800,000",1.04,72,13.00%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Hyderabad,"11,000,000",1.08,85,30.00%,25%,40%,25%,10%,Urban,Service/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Jagtial,"1,500,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Jangaon,"1,200,000",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Jayashankar Bhupalapally,"1,800,000",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Jogulamba Gadwal,"1,500,000",1.06,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Kamareddy,"2,100,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Karimnagar,"3,800,000",1.03,78,14.50%,30%,35%,20%,15%,Urban,Service/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Khammam,"2,800,000",1.04,75,15.00%,30%,35%,20%,15%,Urban,Service/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Kumram Bheem Asifabad,"1,200,000",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Mahabubabad,"1,400,000",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Mahabubnagar,"4,000,000",1.06,72,13.00%,32%,30%,22%,16%,Rural,Farming/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Mancherial,"1,900,000",1.04,75,13.50%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Medak,"3,200,000",1.03,78,14.00%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Medchal-Malkajgiri,"4,000,000",1.07,85,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Nagarkurnool,"1,600,000",1.06,70,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Nalgonda,"3,500,000",1.05,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Nirmal,"1,300,000",1.02,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Nizamabad,"2,800,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Peddapalli,"1,700,000",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Rajanna Sircilla,"1,400,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Ranga Reddy,"5,500,000",1.04,80,18.00%,28%,35%,22%,15%,Rural/Urban,Service/Business/Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Sangareddy,"2,600,000",1.03,75,15.00%,30%,35%,20%,15%,Rural,Farming/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Siddipet,"1,900,000",1.04,72,14.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Suryapet,"2,200,000",1.03,75,13.50%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Vikarabad,"1,800,000",1.05,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Wanaparthy,"1,500,000",1.06,68,12.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Warangal Rural,"1,800,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Warangal Urban,"700,000",1.03,78,15.00%,28%,35%,22%,15%,Urban,Service/Business,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Yadadri Bhuvanagiri,"2,100,000",1.04,72,13.50%,30%,35%,20%,15%,Rural,Farming,"[August,September,October]","[November,December,Jauuary,February]","[June,July,August]",South
+Angul,"2,600,000",1.04,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Balangir,"1,800,000",1.05,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Balasore,"2,400,000",1.03,78,14.50%,30%,35%,20%,15%,Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Bargarh,"1,500,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Bhadrak,"1,800,000",1.03,75,13.50%,30%,35%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Boudh,"400,000",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Cuttack,"3,200,000",1.04,80,18.00%,28%,35%,22%,15%,Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Deogarh,"1,200,000",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Dhenkanal,"1,400,000",1.04,72,13%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Gajapati,"1,200,000",1.03,68,11.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Ganjam,"3,500,000",1.05,75,14.00%,30%,35%,20%,15%,Rural/Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Jagatsinghpur,"1,200,000",1.03,78,15.00%,28%,35%,22%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Jajpur,"1,800,000",1.04,75,14.50%,30%,35%,20%,15%,Rural/Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Jharsuguda,"1,100,000",1.05,70,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Kalahandi,"1,600,000",1.06,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Kandhamal,"1,100,000",1.02,65,11.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Kendrapara,"1,500,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming/Fishing,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Keonjhar,"2,100,000",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Khordha,"3,600,000",1.03,80,18.00%,28%,35%,22%,15%,Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Koraput,"1,400,000",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Malkangiri,"700,000",1.01,60,10.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Mayurbhanj,"2,600,000",1.03,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Nabarangpur,"1,300,000",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Nuapada,"1,200,000",1.04,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Nayagarh,"1,400,000",1.05,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Puri,"1,700,000",1.03,80,16.00%,28%,35%,22%,15%,Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Rayagada,"1,500,000",1.06,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Sambalpur,"1,900,000",1.04,75,14.00%,30%,35%,20%,15%,Urban,Service,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Subarnapur,"1,100,000",1.05,70,13.00%,32%,30%,22%,16%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Sundargarh,"2,200,000",1.04,75,14.50%,30%,35%,20%,15%,Rural,Farming,"[August,September,October,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Balod,"1,400,000",1.04,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Baloda Bazar,"1,600,000",1.05,70,12.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Bastar,"1,400,000",1.02,65,10.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Bemetara,"1,200,000",1.03,72,13.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Bijapur,"900,000",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Bilaspur,"2,200,000",1.04,78,15.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Dantewada,"800,000",1.01,60,10.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Dhamtari,"1,500,000",1.05,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Durg,"2,800,000",1.06,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Gariaband,"1,100,000",1.04,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Gaurela-Pendra-Marwahi,"1,300,000",1.05,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Janjgir-Champa,"1,700,000",1.04,75,13.50%,30%,35%,20%,15%,Rural,Farming/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Jashpur,"800,000",1.02,65,11.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Kabirdham (Kanker),"750,000",1.01,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Kanker,"750,000",1.01,65,11.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Kondagaon,"700,000",1.02,60,10.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Korba,"1,800,000",1.06,78,15.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Mahasamund,"1,300,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Mungeli,"1,100,000",1.03,75,13.50%,30%,35%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Narayanpur,"600,000",1.01,60,10.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Raigarh,"2,300,000",1.05,70,14.00%,32%,30%,22%,16%,Rural,Farming/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Raipur,"2,500,000",1.04,80,18.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Rajnandgaon,"1,700,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Sukma,"650,000",1.01,60,10.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Surajpur,"800,000",1.02,65,11.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Surguja,"2,100,000",1.04,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",Central
+Ambala,"1,136,784",1.05,80,15.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Bhiwani,"1,126,833",1.04,75,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Charkhi Dadri,"502,276",1.03,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Faridabad,"1,798,954",1.08,85,25.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Fatehabad,"941,522",1.05,72,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Gurugram,"1,514,085",1.07,88,12.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Hisar,"1,742,815",1.04,75,12.50%,30%,35%,20%,15%,Rural,Farming/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Jhajjar,"956,907",1.05,72,11.30%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Jind,"1,332,042",1.04,70,24.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Kaithal,"1,072,861",1.03,75,12.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Karnal,"1,506,323",1.04,80,12.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Kurukshetra,"964,231",1.03,82,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Mahendragarh,"921,680",1.05,70,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Nuh,"1,089,406",1.02,65,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Palwal,"1,040,493",1.03,75,14.00%,30%,35%,20%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Panchkula,"558,890",1.08,85,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Panipat,"1,202,811",1.06,80,18.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Rewari,"896,129",1.04,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Rohtak,"1,058,683",1.03,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Sirsa,"1,295,114",1.05,72,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Sonipat,"1,480,080",1.06,80,18.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Yamunanagar,"1,214,162",1.03,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,November]","[November,December,Jauuary,February]","[June,July,August]",North
+Anantapur,"4,100,000",72,1.06,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Chittoor,"4,200,000",75,1.04,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+East Godavari,"5,100,000",78,1.03,15.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Guntur,"5,500,000",82,1.07,18.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Kadapa,"5,100,000",70,1.05,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Krishna,"4,500,000",80,1.04,17.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Kurnool,"4,300,000",72,1.06,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Nellore,"2,900,000",75,1.03,15.00%,30%,35%,20%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Prakasam,"3,200,000",72,1.04,14.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Srikakulam,"2,700,000",70,1.03,13.00%,35%,30%,20%,15%,Rural,Farming/Fishing,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Visakhapatnam,"4,600,000",85,1.07,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Vizianagaram,"2,300,000",75,1.04,14.50%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+West Godavari,"4,900,000",78,1.03,16.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",South
+Alipurduar,"2,900,000",1.03,72,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Bankura,"3,500,000",1.04,75,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Birbhum,"3,500,000",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Cooch Behar,"2,800,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Dakshin Dinajpur,"1,800,000",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Darjeeling,"1,800,000",1.02,80,15.00%,28%,35%,22%,15%,Rural/Urban,Tourism/Service/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+East Midnapore,"5,200,000",1.04,75,14.00%,30%,35%,20%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Hooghly,"5,700,000",1.03,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Howrah,"4,900,000",1.06,85,18.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Jalpaiguri,"3,800,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Kalimpong,"550,000",1.02,80,15.00%,28%,35%,22%,15%,Rural/Urban,Tourism/Service,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Kolkata,"14,800,000",1.08,90,30.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Malda,"4,000,000",1.05,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Murshidabad,"4,500,000",1.06,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Nadia,"5,200,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+North 24 Parganas,"10,000,000",1.04,80,15.00%,28%,35%,22%,15%,Rural/Urban,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Purba Bardhaman,"3,500,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Purulia,"3,000,000",1.04,68,12.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+South 24 Parganas,"8,200,000",1.03,80,16.00%,28%,35%,22%,15%,Rural/Urban,Service/Business/Fishing,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Uttar Dinajpur,"3,000,000",1.05,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Ahmedabad,"7,600,000",1.06,85,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Amreli,"1,500,000",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Anand,"2,100,000",1.03,78,16.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Banaskantha,"3,200,000",1.05,70,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Bharuch,"1,600,000",1.04,80,18.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Bhavnagar,"2,900,000",1.03,75,14.00%,30%,35%,20%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Dahod,"1,100,000",1.02,68,12.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Dangs,"250,000",1.01,60,10.00%,35%,30%,20%,15%,Rural,Tribal Economy/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Gandhinagar,"1,300,000",1.08,90,25.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Jamnagar,"2,100,000",1.04,78,16.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Junagadh,"2,800,000",1.03,75,14.00%,30%,35%,20%,15%,Rural/Urban,Farming/Service/Tourism,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kutch,"2,000,000",1.05,70,13.00%,32%,30%,22%,16%,Rural,Farming/Fishing,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Mahisagar,"2,100,000",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Mehsana,"2,800,000",1.03,78,15.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Narmada,"550,000",1.02,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Navsari,"1,300,000",1.04,78,16.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Panchmahal,"2,000,000",1.05,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Patan,"1,300,000",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Porbandar,"600,000",1.03,75,14.00%,30%,35%,20%,15%,Rural/Urban,Farming/Fishing/Service,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Rajkot,"3,800,000",1.04,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Sabarkantha,"2,500,000",1.05,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Surat,"6,100,000",1.07,85,22.00%,25%,40%,25%,10%,Urban,Service/Business/Industry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Surendranagar,"1,800,000",1.05,72,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Tapi,"1,000,000",1.03,75,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Vadodara,"4,100,000",1.06,85,20.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Valsad,"2,100,000",1.03,78,15.00%,28%,35%,22%,15%,Rural/Urban,Farming/Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Alappuzha,"2,127,789",1.1,95.72,15.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Ernakulam,"3,282,388",1.03,95.89,22.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Idukki,"1,108,974",1.01,91.99,13.00%,32%,30%,22%,16%,Rural,Farming/Tourism,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kannur,"2,523,003",1.14,95.1,14.00%,30%,35%,20%,15%,Rural/Urban,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kasaragod,"1,307,375",1.08,90.09,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kollam,"2,635,375",1.11,94.09,14.00%,30%,35%,20%,15%,Rural/Urban,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kottayam,"1,974,551",1.04,97.21,16.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Kozhikode,"3,086,293",1.1,95.08,17.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Malappuram,"4,112,920",1.1,93.57,13.00%,32%,30%,22%,16%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Palakkad,"2,809,934",1.07,89.31,13.50%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Pathanamthitta,"1,197,412",1.13,96.55,14.00%,30%,35%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Thiruvananthapuram,"3,301,427",1.09,93.02,18.00%,25%,40%,25%,10%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Thrissur,"3,121,200",1.11,95.08,16.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Wayanad,"817,420",1.04,89.03,12.00%,35%,30%,20%,15%,Rural,Farming/Tourism,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",West
+Bokaro,"2,062,330",1.06,78,16.00%,28%,35%,22%,15%,Urban,Service/Business/Industry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Chatra,"1,042,886",1.03,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Deoghar,"1,492,073",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming/Religious Tourism,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Dhanbad,"2,684,487",1.06,78,18.00%,28%,35%,22%,15%,Urban,Service/Business/Industry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Dumka,"1,321,442",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+East Singhbhum,"2,293,919",1.06,78,16.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Industry/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Garhwa,"1,322,784",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Giridih,"2,445,474",1.04,72,14%,32%,30%,22%,16%,Rural,Farming/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Godda,"1,313,551",1.05,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Gumla,"1,025,213",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Hazaribagh,"1,734,495",1.04,75,14.00%,30%,35%,20%,15%,Rural,Farming/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Jamtara,"791,042",1.05,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Khunti,"531,885",1.02,65,11.50%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Koderma,"716,259",1.04,72,13.00%,32%,30%,22%,16%,Rural,Farming/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Latehar,"726,978",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Lohardaga,"461,790",1.02,65,11.50%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Pakur,"900,422",1.05,68,12.00%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Palamu,"1,939,869",1.04,68,12.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Ramgarh,"949,443",1.04,75,14.00%,30%,35%,20%,15%,Rural,Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Ranchi,"2,914,253",1.04,80,16.00%,28%,35%,22%,15%,Urban,Service/Business,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Sahebganj,"1,150,567",1.05,70,12.50%,35%,30%,20%,15%,Rural,Farming,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Seraikela-Kharsawan,"1,065,056",1.04,72,13.50%,32%,30%,22%,16%,Rural,Farming/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+Simdega,"599,578",1.02,65,11.00%,35%,30%,20%,15%,Rural,Farming/Forestry,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
+West Singhbhum,"1,502,338",1.06,78,16.00%,28%,35%,22%,15%,Urban/Rural,Service/Business/Mining,"[March,October,September,November]","[November,December,Jauuary,February]","[June,July,August]",East
