@@ -1,14 +1,18 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.layers import Dense, Dropout, Input, Concatenate
 import tensorflow as tf
+import os
+from flask_cors import CORS
+# Disable oneDNN log messages
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 # Initialize Flask app
 app = Flask(__name__)
-
+CORS(app) 
 # Data Initialization
 location_df = pd.DataFrame({
     'location': ['Theni', 'Chennai', 'Thiruvallur', 'Coimbatore', 'Ariyalur'],
@@ -24,7 +28,7 @@ scheme_df = pd.DataFrame({
     'target_gender': ['Both', 'Male', 'Both', 'Female', 'Both'],
     'target_age_group': ['Adult', 'Young', 'Adult', 'Senior', 'Young'],
     'tax_benefit': ['Yes', 'No', 'Yes', 'No', 'Yes'],
-    'risk_level': ['Low', 'Medium', 'High', 'Low','Medium']
+    'risk_level': ['Low', 'Medium', 'High', 'Low', 'Medium']
 })
 user_feedback_df = pd.DataFrame({
     'user_id': [1, 2, 3, 4, 5],
@@ -60,17 +64,18 @@ scheme_features = pd.concat([
     scheme_encoded_df
 ], axis=1)
 
+# Function to create Autoencoder
 def create_autoencoder(input_dim):
-    model = Sequential([
-        Dense(32, activation='relu', input_shape=(input_dim,)),
-        Dropout(0.2),
-        Dense(16, activation='relu'),
-        Dropout(0.2),
-        Dense(8, activation='relu'),
-        Dense(16, activation='relu'),
-        Dense(32, activation='relu'),
-        Dense(input_dim, activation='sigmoid')
-    ])
+    inputs = Input(shape=(input_dim,))
+    x = Dense(32, activation='relu')(inputs)
+    x = Dropout(0.2)(x)
+    x = Dense(16, activation='relu')(x)
+    x = Dropout(0.2)(x)
+    x = Dense(8, activation='relu')(x)
+    x = Dense(16, activation='relu')(x)
+    x = Dense(32, activation='relu')(x)
+    outputs = Dense(input_dim, activation='sigmoid')(x)
+    model = Model(inputs, outputs)
     model.compile(optimizer='adam', loss='mse')
     return model
 
@@ -80,21 +85,22 @@ location_autoencoder.fit(location_features, location_features, epochs=10, batch_
 scheme_autoencoder = create_autoencoder(scheme_features.shape[1])
 scheme_autoencoder.fit(scheme_features, scheme_features, epochs=10, batch_size=2, verbose=0)
 
+# Recommendation Model
 def create_recommendation_model(location_dim, scheme_dim):
-    location_input = tf.keras.Input(shape=(location_dim,))
-    scheme_input = tf.keras.Input(shape=(scheme_dim,))
+    location_input = Input(shape=(location_dim,))
+    scheme_input = Input(shape=(scheme_dim,))
 
     x1 = Dense(16, activation='relu')(location_input)
     x2 = Dense(16, activation='relu')(scheme_input)
 
-    concat = tf.keras.layers.Concatenate()([x1, x2])
+    concat = Concatenate()([x1, x2])
     x = Dense(32, activation='relu')(concat)
     x = Dropout(0.2)(x)
     x = Dense(16, activation='relu')(x)
     x = Dense(8, activation='relu')(x)
     output = Dense(1, activation='sigmoid')(x)
 
-    model = tf.keras.Model(inputs=[location_input, scheme_input], outputs=output)
+    model = Model(inputs=[location_input, scheme_input], outputs=output)
     model.compile(optimizer='adam', loss='mse')
     return model
 
@@ -105,27 +111,56 @@ y = user_feedback_df['rating'].values / 5.0
 recommendation_model = create_recommendation_model(X_loc.shape[1], X_scheme.shape[1])
 recommendation_model.fit([X_loc, X_scheme], y, epochs=10, batch_size=2, verbose=0)
 
+# Flask Routes
+@app.route('/')
+def home():
+    return render_template('index.html')
+
 @app.route('/recommend', methods=['POST'])
 def recommend():
-    data = request.json
-    user_id = data.get('userId')
-    location = data.get('location')
+    try:
+        data = request.json
+        user_id = data.get('userId')
+        location = data.get('location')
+        
+        if not location or location not in location_df['location'].values:
+            return jsonify({
+                "status": "error",
+                "message": "Invalid location. Please choose from: " + ", ".join(location_df['location'].values)
+            }), 400
+                
+        loc_idx = location_df.index[location_df['location'] == location].tolist()[0]
+        loc_features = location_features.iloc[loc_idx:loc_idx+1].values
+        loc_repeated = np.tile(loc_features, (len(scheme_features), 1))
+        
+        predictions = recommendation_model.predict([loc_repeated, scheme_features.values], verbose=0)
+        
+        recommendations = [{
+            "scheme": scheme,
+            "score": float(score),
+            "details": {
+                "ROI": float(scheme_df[scheme_df['scheme'] == scheme]['ROI'].values[0]),
+                "target_gender": scheme_df[scheme_df['scheme'] == scheme]['target_gender'].values[0],
+                "risk_level": scheme_df[scheme_df['scheme'] == scheme]['risk_level'].values[0]
+            }
+        } for scheme, score in zip(scheme_df['scheme'], predictions.flatten())]
+        
+        recommendations.sort(key=lambda x: x['score'], reverse=True)
+        
+        return jsonify({
+            "status": "success",
+            "data": {
+                "location": location,
+                "userId": user_id,
+                "recommendations": recommendations[:3]  # Return top 3 recommendations
+            }
+        })
     
-    if location not in location_df['location'].values:
-        return jsonify({"error": "Invalid location"}), 400
-            
-    loc_features = location_features.loc[location_df['location'] == location].values
-    loc_repeated = np.repeat(loc_features, len(scheme_features), axis=0)
-    preds = recommendation_model.predict([loc_repeated, scheme_features.values], verbose=0)
-    
-    result_data = {
-        "location": location
-    }
-    
-    for scheme, score in zip(scheme_df['scheme'], preds.flatten()):
-        result_data[scheme] = float(score)
-    
-    return jsonify({"data": result_data})
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
 
 if __name__ == '__main__':
     app.run(debug=True)

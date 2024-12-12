@@ -158,6 +158,22 @@ const populationSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+const accountSchema = new mongoose.Schema({
+  name: String,
+  scheme: String,
+  branch: String,
+  district: String,
+  state: String,
+  accountTracker: {
+    type: Number,
+    default: 0, // Initial value set to 0
+  },
+  predictedScore: {
+    type: Number, // Storing the predicted score as a number
+    default: null, // Default value is null if no score is predicted yet
+  },
+});
+
 const ageGroupSchema = new mongoose.Schema({
   ageGroup: {
     type: String, // Age group or range (e.g., "0-4", "5-9", "80")
@@ -194,6 +210,7 @@ const ageGroupSchema = new mongoose.Schema({
 });
 
 
+
 const schemeSchema = new mongoose.Schema({
   scheme_name: { type: String, required: true },
   scheme_type: { type: String, required: true },
@@ -221,16 +238,6 @@ const regionSchema = new mongoose.Schema({
     required: true,
     min: 0,
   },
-  Male: {
-    type: Number,
-    required: true,
-    min: 0,
-  },
-  Female: {
-    type: Number,
-    required: true,
-    min: 0,
-  },
   gender_ratio: {
     type: Number,
     required: true,
@@ -244,23 +251,133 @@ const regionSchema = new mongoose.Schema({
     max: 100,
   },
   income_level: {
-    type: Number,
+    type: Number, // Converted to number
     required: true,
     min: 0,
-  },
-  age_distribution: {
-    type: String,
-    required: true,
+    max: 100, // Represents percentage
     validate: {
       validator: function (v) {
-        // Validate percentage format (e.g., "22%, 23%, 38%, 17%")
-        return /^(\d+%)(,\s*\d+%)*$/.test(v);
+        return v <= 100 && v >= 0;
       },
       message: (props) =>
-        `${props.value} is not a valid age distribution format. Use comma-separated percentages.`,
+        `${props.value} must be a valid percentage between 0 and 100.`,
+    },
+  },
+  age_distribution: {
+    young: {
+      type: Number, // Converted to number
+      required: true,
+      min: 0,
+      max: 100,
+    },
+    youth: {
+      type: Number, // Converted to number
+      required: true,
+      min: 0,
+      max: 100,
+    },
+    adult: {
+      type: Number, // Converted to number
+      required: true,
+      min: 0,
+      max: 100,
+    },
+    senior_citizen: {
+      type: Number, // Converted to number
+      required: true,
+      min: 0,
+      max: 100,
+    },
+  },
+  type: {
+    type: String,
+    required: true,
+    enum: ["Rural", "Urban", "Semi-Urban"], // Validating type
+  },
+  occupation: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+  festive_season_month: {
+    type: [String], // Array of months
+    validate: {
+      validator: function (v) {
+        return v.every((month) =>
+          [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+          ].includes(month)
+        );
+      },
+      message: (props) => `${props.value} contains invalid month(s).`,
+    },
+  },
+  wedding_season_month: {
+    type: [String], // Array of months
+    validate: {
+      validator: function (v) {
+        return v.every((month) =>
+          [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+          ].includes(month)
+        );
+      },
+      message: (props) => `${props.value} contains invalid month(s).`,
+    },
+  },
+  admission_season_month: {
+    type: [String], // Array of months
+    validate: {
+      validator: function (v) {
+        return v.every((month) =>
+          [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+          ].includes(month)
+        );
+      },
+      message: (props) => `${props.value} contains invalid month(s).`,
     },
   },
 });
+
+
+const Account = mongoose.model("Account", accountSchema);
+
+
+
 
 const RegionModel = mongoose.model("Region", regionSchema);
 
@@ -305,4 +422,5 @@ module.exports = {
   ActiveSchemeModel,
   SchemeModel,
   RegionModel,
+  Account,
 };

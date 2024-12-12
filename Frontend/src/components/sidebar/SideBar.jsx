@@ -73,8 +73,29 @@ const Sidebar = () => {
               location.pathname === "/Home/Feedback" ? styles.active : ""
             }`}
           >
+            
             <Menu className={styles.icon} />
             Feedback
+          </Link>
+          <Link
+            to="/Home/PredictAccountOpening"
+            className={`${styles.navItem} ${
+              location.pathname === "/Home/PredictAccountOpening" ? styles.active : ""
+            }`}
+          >
+            
+            <Menu className={styles.icon} />
+            PredictAccountOpening
+          </Link>
+          <Link
+            to="/Home/Track"
+            className={`${styles.navItem} ${
+              location.pathname === "/Home/Track" ? styles.active : ""
+            }`}
+          >
+            
+            <Menu className={styles.icon} />
+            Track
           </Link>
         </div>
       </nav>

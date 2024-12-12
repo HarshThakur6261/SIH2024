@@ -11,6 +11,8 @@ import Voiceinput from "../pages/Feedback/Voiceinput";
 import Login from "../LoginPage/login";
 import Home from "../pages/Home";
 import Aiprediction from "../pages/Aiprediction/Aiprediction";
+import PredictAccountOpening from "../pages/PredictAccountOpening";
+import Track from "../pages/Track";
 
 const router = createBrowserRouter([
   {
@@ -60,7 +62,16 @@ const router = createBrowserRouter([
           {
             path:"Aiprediction",
             element:<Aiprediction></Aiprediction>
-          }
+          },
+          {
+            path:"PredictAccountOpening",
+            element:<PredictAccountOpening></PredictAccountOpening>
+          },
+          {
+            path:"Track",
+            element:<Track></Track>
+          },
+
         ],
       },
     ],

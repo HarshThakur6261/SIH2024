@@ -13,9 +13,11 @@ const EventsRouter = require("./Router/EventsRouter");
 const demographicdataRouter = require("./Router/demographicdataRouter");
 const ActiveSchemeRouter = require("./Router/ActiveSchemeRouter");
 
-const AddSchemeRouter = require("./Router/AddSchemeRouter")
-const AddnewlocationDataRouter = require("./Router/AddnewlocationDataRouter")
-const GetSchemeRouter = require("./Router/GetSchemeRouter")
+const AddSchemeRouter = require("./Router/AddSchemeRouter");
+const AddnewlocationDataRouter = require("./Router/AddnewlocationDataRouter");
+const GetSchemeRouter = require("./Router/GetSchemeRouter");
+const GetRegionRouter = require("./Router/GetRegionRouter");
+const AccountsData = require("./Router/AccountsData");
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 require("./model/db")
@@ -35,6 +37,8 @@ app.use("/ActiveScheme" ,ActiveSchemeRouter);
 app.use('/Addscheme' , AddSchemeRouter);
 app.use('/AddnewlocationData' ,AddnewlocationDataRouter )
 app.use("/getScheme" , GetSchemeRouter);
+app.use("/getregion" , GetRegionRouter);
+app.use("/accounts" , AccountsData);
 
 
 

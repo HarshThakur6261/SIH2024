@@ -1,126 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu&display=swap');
+/* Dropdown.module.css */
 
-.bigCon {
-  padding-top: 60px;
-  padding-left: 320px;
-  height: 100vh;
-  width: 100%;
-  background-color: #F2F3FA;
-  overflow: hidden;
-}
-
-
-.titleContainer {
-  /* background-color: #174EB3; */
-  /* background-color: rgba(31, 42, 64, 0.8); */
-  background-color:#1F2A40;
-  width: auto;
-  padding: 0 15px;
-  position: fixed;
-  top: 5%;
- left: 45%;
-  border-radius: 35px;
-}
-.recommendationbtn{
-  position: absolute;
-  top: 11%;
-  right: 4%;
-}
-.title {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: white;
-  /* font-family: "Roboto Mono", monospace; */
-
- 
-}
-
-.chartContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto 1fr;
-  grid-gap: 20px;
-
-  padding-top: 45px;
-  height: 100vh;
-  margin: 40px 50px;
-}
-
-.chartBox {
-  padding: 10px;
-  background-color: #1F2A40;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease;
-  text-align: center;
- 
-}
-.chartBox p{
-  color: white;
-}
-
-.chartBox .firstChart {
-  padding: 10px;
- 
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  text-align: center;
-  height: 200px;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  
-  
-}
-
-.chartBox.secondChart {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  padding: 10px;
-
-}
-
-.chartBox.thirdChart {
-  grid-column: 1 / 3;
-  grid-row: 2 / 3;
-  height: 300px;
-  padding: 10px;
+/* Container for the whole form */
+.dropdown-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  gap: 1rem;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
 }
 
-.chartBox:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Style for both the category and options dropdown */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  outline: none;
 }
 
-.modal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: rgba(31, 42, 64, 0.8);
-  margin-top: 170px;
-  margin-left: 37%;
-  border-radius: 8px;
-  padding: 1rem;
-  overflow: auto;
+/* Hover and focus styles for the dropdown */
+select:hover, select:focus {
+  border-color: #007bff;
+  background-color: #e9f7ff;
 }
 
-.chartWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Style for the placeholder option */
+option {
+  color: #777;
 }
 
-.legendWrapper {
-  text-align: left;
-  padding-left: 10px;
+/* Style for the selected value display */
+p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style for the submit button */
+.submitButton {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
 }

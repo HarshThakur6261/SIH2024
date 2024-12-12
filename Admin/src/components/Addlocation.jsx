@@ -3,37 +3,69 @@ import { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import { handleError, handleSucess } from "../utils";
 import axios from "axios";
-const Addlocation = () => {
+
+const AddLocation = () => {
   const [formData, setFormData] = useState({
     region_name: "",
     population_density: "",
-    Male: "",
-    Female: "",
     gender_ratio: "",
     education_level: "",
     income_level: "",
-    age_distribution: "",
+    age_distribution: {
+      young: "",
+      youth: "",
+      adult: "",
+      senior_citizen: "",
+    },
+    type: "",
+    occupation: "",
+    festive_season_month: "",
+    wedding_season_month: "",
+    admission_season_month: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    if (name.includes("age_distribution")) {
+      const ageGroup = name.split(".")[1];
+      setFormData({
+        ...formData,
+        age_distribution: {
+          ...formData.age_distribution,
+          [ageGroup]: value,
+        },
+      });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      // Adjusting to match the backend schema, ensuring numbers are sent properly
+      const ageDistribution = {
+        young: parseFloat(formData.age_distribution.young),
+        youth: parseFloat(formData.age_distribution.youth),
+        adult: parseFloat(formData.age_distribution.adult),
+        senior_citizen: parseFloat(formData.age_distribution.senior_citizen),
+      };
+
       const requestData = {
-        ...formData,
+        region_name: formData.region_name,
         population_density: parseInt(formData.population_density, 10),
-        Male: parseInt(formData.Male, 10),
-        Female: parseInt(formData.Female, 10),
+       
         gender_ratio: parseFloat(formData.gender_ratio),
         education_level: parseFloat(formData.education_level),
         income_level: parseInt(formData.income_level, 10),
+        age_distribution: ageDistribution,
+        type: formData.type,
+        occupation: formData.occupation,
+        festive_season_month: formData.festive_season_month.split(",").map((month) => month.trim()),
+        wedding_season_month: formData.wedding_season_month.split(",").map((month) => month.trim()),
+        admission_season_month: formData.admission_season_month.split(",").map((month) => month.trim()),
       };
+
       console.log(requestData);
 
       const response = await axios.post(
@@ -47,7 +79,8 @@ const Addlocation = () => {
         handleError(response.data.error);
       }
     } catch (error) {
-      console.log(error);
+      console.error(error);
+      handleError("An error occurred while submitting the data.");
     }
   };
 
@@ -75,27 +108,9 @@ const Addlocation = () => {
         />
       </label>
 
-      <label>
-        Male Population:
-        <input
-          type="number"
-          name="Male"
-          value={formData.Male}
-          onChange={handleChange}
-          required
-        />
-      </label>
+      
 
-      <label>
-        Female Population:
-        <input
-          type="number"
-          name="Female"
-          value={formData.Female}
-          onChange={handleChange}
-          required
-        />
-      </label>
+      
 
       <label>
         Gender Ratio:
@@ -132,23 +147,117 @@ const Addlocation = () => {
         />
       </label>
 
+      <fieldset>
+        <legend>Age Distribution (%):</legend>
+        <label>
+          Young:
+          <input
+            type="number"
+            step="0.01"
+            name="age_distribution.young"
+            value={formData.age_distribution.young}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label>
+          Youth:
+          <input
+            type="number"
+            step="0.01"
+            name="age_distribution.youth"
+            value={formData.age_distribution.youth}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label>
+          Adult:
+          <input
+            type="number"
+            step="0.01"
+            name="age_distribution.adult"
+            value={formData.age_distribution.adult}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label>
+          Senior Citizen:
+          <input
+            type="number"
+            step="0.01"
+            name="age_distribution.senior_citizen"
+            value={formData.age_distribution.senior_citizen}
+            onChange={handleChange}
+            required
+          />
+        </label>
+      </fieldset>
+
       <label>
-        Age Distribution (e.g., "21%, 23%, 39%, 17%"):
+        Type (Rural/Urban/Semi-Urban):
+        <select
+          name="type"
+          value={formData.type}
+          onChange={handleChange}
+          required
+        >
+          <option value="">Select Type</option>
+          <option value="Rural">Rural</option>
+          <option value="Urban">Urban</option>
+          <option value="Semi-Urban">Semi-Urban</option>
+        </select>
+      </label>
+
+      <label>
+        Occupation:
         <input
           type="text"
-          name="age_distribution"
-          value={formData.age_distribution}
+          name="occupation"
+          value={formData.occupation}
           onChange={handleChange}
           required
         />
       </label>
 
-      <button type="submit" onSubmit={handleSubmit}>
-        Submit
-      </button>
+      <label>
+        Festive Season Months (comma-separated):
+        <input
+          type="text"
+          name="festive_season_month"
+          value={formData.festive_season_month}
+          onChange={handleChange}
+          required
+        />
+      </label>
+
+      <label>
+        Wedding Season Months (comma-separated):
+        <input
+          type="text"
+          name="wedding_season_month"
+          value={formData.wedding_season_month}
+          onChange={handleChange}
+          required
+        />
+      </label>
+
+      <label>
+        Admission Season Months (comma-separated):
+        <input
+          type="text"
+          name="admission_season_month"
+          value={formData.admission_season_month}
+          onChange={handleChange}
+          required
+        />
+      </label>
+
+      <button type="submit">Submit</button>
       <ToastContainer />
     </form>
   );
 };
 
-export default Addlocation;
+export default AddLocation;
