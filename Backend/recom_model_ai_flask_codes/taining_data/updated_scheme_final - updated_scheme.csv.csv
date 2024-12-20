@@ -1,0 +1,16 @@
+scheme_id,scheme_name,scheme_type,target_gender,target_age_group,min_investment,max_investment,roi,risk_level,target_occupation,target_income_level,target_education_level,tax_benefit,genre
+1,Sukanya Samriddhi Yojana,Savings,Female,0-10,250,150000,7.6,Low,All,Low,Primary,Yes,Savings
+2,Kisan Vikas Patra,Fixed Deposit,All,All,1000,No limit,7.2,Low,Agriculture,Middle,Secondary,No,Agriculture
+3,Senior Citizen Savings Scheme,Savings,All,60+,1000,1500000,8.2,Low,Retired,All,All,Yes,Seniour
+4,Post Office Savings Account,Savings,All,10+,500,No limit,4,Low,All,All,All,No,Savings
+5,Post Office Monthly Income Scheme,Income,All,All,1500,450000,7.4,Low,All,All,All,No,Income
+6,Public Provident Fund,Savings,All,All,500,150000,7.1,Low,All,All,All,Yes,Savings
+7,Mahila Samman Savings Certificate,Savings,Female,10+,1000,200000,7.5,Low,All,All,All,No,Savings
+8,Post Office Time Deposit Account,Fixed Deposit,All,10+,1000,No Limit,7.8,Low,All,All,All,Yes,Savings
+9,PM CARES for Children Scheme,Support,All,0-18,0,1000000,0,None,None,All,All,No,General
+10,Post Office Recurring Deposit Account,Recurring Deposit,All,10+,100,No Limit,6.9,Low,All,All,All,Yes,Savings
+11,National Savings Certificate,Fixed Deposit,All,All,1000,No Limit,6.8,Low,All,All,All,Yes,Savings
+12,Postal Life Insurance,Insurance,All,19-55,200,No limit,6.5,Low,All,Middle,All,Yes,General
+13,Rural Postal Life Insurance,Insurance,All,19-55,200,1000000,6.5,Low,Rural residents,Low,All,Yes,General
+14,Fixed Deposits,Fixed Deposit,All,All,1000,No limit,7.1,Low,All,All,All,Yes,General
+15,Recurring Deposits,Recuuring Deposit,All,All,100,No limit,6.5,Low,All,All,All,No,General
